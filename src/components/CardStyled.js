@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
-const CardStyled = styled.div`
-  position: relative;
-  width: 500px;
-  height: 650px;
-  left: 470px;
+export const CardStyled = styled.div`
+  position: absolute;
+  width: 250px;
+  height: 325px;
+  left: 350px;
   top: 100px;
   margin-bottom: 300px;
   background: #e5dccd;
@@ -12,25 +12,33 @@ const CardStyled = styled.div`
   border-radius: 2px;
 `;
 
-const title = styled.h1`
-  position: absolute;
-  width: 330px;
+export const Title = styled.h1`
+  position: relative;
+  width: 180px;
   height: 114px;
-  margin: 20px 30px 20px;
-  bottom: 20px;
+  margin: 20px;
+  top: 328px;
+  left: 100px;
   font-family: Rosarivo;
   font-style: normal;
   font-weight: normal;
-  font-size: 46px;
-  line-height: 65px;
+  font-size: 25px;
   color: #000000;
 `;
 
-/* const date = styled.span`
-  position: relative;
+export const Date = styled.span`
+  position: absolute;
   display: inline-flex;
-  margin-left: 33px;
-  gap: 300px;
-`; */
+  gap: 115px;
+  font-size: 12px;
+  top: 317px;
+  left: 370px;
+`;
 
-export default CardStyled;
+export const Img = styled.img`
+  position: absolute;
+  left: 350px;
+  top: 100px;
+  width: 250px;
+  height: 223.5px;
+`;
